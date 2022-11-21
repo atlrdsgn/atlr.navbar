@@ -1,0 +1,27 @@
+{
+  "include": ["src"],
+  "exclude": ["/*.css", "dist/index.js", "dist/index.mjs", "node_modules"],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "ES2019",
+    "noEmit": true,
+    "lib": ["ESNext"],
+
+    "composite": false,
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true
+  }
+}

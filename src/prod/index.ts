@@ -1,1 +1,1 @@
-export { AtlrNavbar } from '../dev/atlr-navbar';
+export { AtlrNavbar } from "../dev";

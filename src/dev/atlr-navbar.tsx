@@ -1,17 +1,16 @@
-import React from 'react';
-import css from './css.module.css';
+import React from "react";
+import css from "./css.module.css";
+
 interface AtlrProps {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }
-
-
-
-
 
 export const AtlrNavbar = ({ children }: AtlrProps) => {
   return (
     <>
-<NavPlacement className={css.nav__placement}><Bar></Bar></NavPlacement>
+      <div className={css.navPlacement}>
+        <div className={css.appBar}>{children}</div>
+      </div>
     </>
   );
 };
