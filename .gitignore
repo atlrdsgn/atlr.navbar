@@ -9,10 +9,13 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
-
+.pnp.cjs
+.pnp.loader.js
 
 /node_modules
 node_modules/
 
 .vscode/
+
+.yarn/
 

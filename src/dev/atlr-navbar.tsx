@@ -1,4 +1,5 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
+import * as React from "react";
 
 export const AtlrNavbar = () => {
   return (

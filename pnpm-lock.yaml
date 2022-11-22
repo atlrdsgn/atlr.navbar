@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@radix-ui/react-navigation-menu': ^1.1.1
   '@rollup/plugin-node-resolve': ^15.0.1
+  '@stitches/react': ^1.2.8
   '@types/react': ^18.0.25
   concurrently: ^7.6.0
   react: ^18.2.0
@@ -16,6 +17,7 @@ specifiers:
 
 dependencies:
   '@radix-ui/react-navigation-menu': 1.1.1_biqbaboplfbrettd7655fr4n2y
+  '@stitches/react': 1.2.8_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1485,6 +1487,14 @@ packages:
       picomatch: 2.3.1
       rollup: 3.3.0
     dev: true
+
+  /@stitches/react/1.2.8_react@18.2.0:
+    resolution: {integrity: sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==}
+    peerDependencies:
+      react: '>= 16.3.0'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
