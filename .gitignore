@@ -11,6 +11,9 @@
 #.pnp.*
 .pnp.cjs
 .pnp.loader.js
+pnpm-lock.yaml
+
+dist/
 
 /node_modules
 node_modules/

@@ -1,6 +1,6 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { keyframes, styled } from "@stitches/react";
-import { Icxn } from "../atlr-icxn";
+import { Icxn } from "./atlr-icxn";
 
 /**
  * @keyframes
@@ -205,7 +205,7 @@ const NavigationMenuLink = styled(NavigationMenu.Link, {
     cursor: "pointer",
   },
 });
-
+////////////////////////////////////////////////////////////////
 /**
  * @MenuContent
  */
