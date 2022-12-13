@@ -1,6 +1,6 @@
 {
     "name": "@atlr/navbar",
-    "version": "1.0.0",
+    "version": "0.0.5",
     "description": "",
     "keywords": [],
     "author": "chvndler",
@@ -10,8 +10,7 @@
     "module": "dist/index.esm.js",
     "typings": "dist/index.d.ts",
     "files": [
-        "dist",
-        "src"
+        "dist/*"
     ],
     "scripts": {
         "clean": "rm -rf node_modules && rm -rf dist",
@@ -21,36 +20,18 @@
         "analyze": "size-limit --why"
     },
     "devDependencies": {
-        "@babel/core": "^7.20.5",
-        "@babel/eslint-parser": "^7.19.1",
-        "@radix-ui/colors": "^0.1.8",
         "@radix-ui/react-navigation-menu": "^1.1.1",
-        "@stitches/react": "^1.2.8",
-        "@types/node": "^18.11.9",
-        "@types/react": "^18.0.25",
-        "eslint": "^8.28.0",
-        "husky": "^8.0.2",
-        "prettier": "^2.8.0",
+        "@types/node": "^18.11.13",
+        "@types/react": "^18.0.26",
+        "@types/styled-components": "^5.1.26",
+        "prettier": "^2.8.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "tsdx": "^0.14.1",
-        "tslib": "^2.4.1",
-        "typescript": "^4.9.3"
+        "react-is": "^18.2.0",
+        "styled-components": "^5.3.6",
+        "typescript": "^4.9.4"
     },
     "publishConfig": {
         "access": "public"
-    },
-    "prettier": {
-        "semi": true,
-        "singleQuote": true,
-        "arrowParens": "always",
-        "tabWidth": 2,
-        "printWidth": 120,
-        "trailingComma": "none"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "tsdx lint"
-        }
     }
 }
