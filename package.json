@@ -5,7 +5,7 @@
     "keywords": [],
     "author": "chvndler",
     "license": "MIT",
-    "packageManager": "pnpm@7.17.0",
+    "packageManager": "yarn@3.2.2",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/index.d.ts",
@@ -21,6 +21,7 @@
     },
     "devDependencies": {
         "@radix-ui/react-navigation-menu": "^1.1.1",
+        "@stitches/react": "^1.2.8",
         "@types/node": "^18.11.13",
         "@types/react": "^18.0.26",
         "@types/styled-components": "^5.1.26",

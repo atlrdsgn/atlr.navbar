@@ -1,6 +1,5 @@
-import * as React from 'react'
 import * as NavigationMenu from '@radix-ui/react-navigation-menu'
-import {styled} from 'styled-components'
+import styled from 'styled-components'
 
 const styledNavRoot = styled(NavigationMenu.Root)`
   --radix-navigation-menu-item-padding: 0;
@@ -20,7 +19,7 @@ const styledNavRoot = styled(NavigationMenu.Root)`
   padding: 0;
 `
 
-const styledNavBar = styled(NavigationMenu.List)`
+const styledNavList = styled(NavigationMenu.List)`
   --radix-navigation-menu-item-padding: 0;
 
   position: fixed;
@@ -63,5 +62,5 @@ const styledNavContent = styled(NavigationMenu.Content)`
 `
 
 export const NavRoot = styledNavRoot
-export const NavBar = styledNavBar
+export const NavList = styledNavList
 export const NavContent = styledNavContent
