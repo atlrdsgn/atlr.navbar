@@ -45,6 +45,12 @@ const styledNavList = styled(NavigationMenu.List)`
   border: 1px solid #c6d1d9;
 `
 
+const styledNavItem = styled(NavigationMenu.Item)`
+  --radix-navigation-menu-item-padding: 0;
+
+  display: flex;
+`
+
 const styledNavContent = styled(NavigationMenu.Content)`
   --radix-navigation-menu-item-padding: 0;
 
@@ -63,4 +69,5 @@ const styledNavContent = styled(NavigationMenu.Content)`
 
 export const NavRoot = styledNavRoot
 export const NavList = styledNavList
+export const NavItem = styledNavItem
 export const NavContent = styledNavContent
