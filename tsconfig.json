@@ -2,19 +2,21 @@
   "include": ["src", "types"],
   "exclude": ["/*.css", "dist/index.js", "dist/index.mjs", "node_modules"],
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "esnext",
-    "lib": ["dom", "ESNext"],
-    "importHelpers": true,
+    "moduleResolution": "node",
+    "module": "es2020",
+    "lib": ["es2020"],
+    "target": "es2020",
     "declaration": true,
+    "typeRoots": ["node_modules/@types"],
+    "strict": true,
+
+    "importHelpers": true,
     "sourceMap": true,
     "rootDir": "./src",
-    "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "moduleResolution": "node",
     "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -25,6 +27,11 @@
     "removeComments": true,
     "strictNullChecks": true,
     "preserveConstEnums": true,
-    "types": ["node"]
+    "types": ["node"],
+
+    "baseUrl": ".",
+    "paths": {
+      "package": ["./"]
+    }
   }
 }
